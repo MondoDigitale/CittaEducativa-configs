@@ -1,0 +1,195 @@
+body.home .slideshow-preloader {
+	height: 600px;
+}
+@media (max-width: 1259px) {
+	body.home .slideshow-preloader {
+		height: 480px;
+	}
+}
+@media (max-width: 979px) {
+	body.home .slideshow-preloader {
+		height: 360px;
+	}
+	body.home .sc-slideshow .sc-button {
+		display: none !important;
+	}
+}
+@media (max-width: 767px) {
+	body.home .slideshow-preloader {
+		height: 220px;
+	}
+}
+@media (max-width: 480px) {
+	body.home .slideshow-preloader {
+	height: 140px;
+	}
+}
+
+/*   Slide 1 - Linear Scale Animation   */ 
+
+#Slide1_Scale {
+	-o-animation: slide 16s infinite linear;
+	-moz-animation: slide 16s infinite linear;
+	-webkit-animation: slide 16s infinite linear;
+	animation: slide 16s infinite linear;
+}
+@keyframes slide {
+	0% { transform: rotate(0deg) scale(1);top: 0px; left: 0px;}
+	100% { transform: rotate(0deg) scale(1);top: 0px; left: -502px;}
+}
+@-o-keyframes slide {
+	0% { -o-transform: rotate(0deg) scale(1);top: 0px; left: 0px;}
+	100% { -o-transform: rotate(0deg) scale(1);top: 0px; left: -502px;}
+}
+@-moz-keyframes slide {
+	0% { -moz-transform: rotate(0deg) scale(1);top: 0px; left: 0px;}
+	100% { -moz-transform: rotate(0deg) scale(1);top: 0px; left: -502px;}
+}
+@-webkit-keyframes slide {
+	0% { -webkit-transform: rotate(0deg) scale(1);top: 0px; left: 0px;}
+	100% { -webkit-transform: rotate(0deg) scale(1);top: 0px; left: -502px;}
+}
+
+
+/*   Slide 1 - Glass Neon Light Animation   */ 
+
+#Slide1_GlassNeon {
+	-o-animation: glass_neon 1.5s infinite linear;
+	-moz-animation: glass_neon 1.5s infinite linear;
+	-webkit-animation: glass_neon 1.5s infinite linear;
+	animation: glass_neon 1.5s infinite linear;
+}
+@keyframes glass_neon {
+	0% { opacity: 0.2; }
+	15% { opacity: 1; }
+	25% { opacity: 0.2; }
+	30% { opacity: 0.2; }
+	31% { opacity: 0.9; }
+	50% { opacity: 0.3; }
+	60% { opacity: 0.3; }
+	65% { opacity: 1; }
+	70% { opacity: 0.2; }
+	71% { opacity: 0.6; }
+	85% { opacity: 0.2; }
+	100% { opacity: 1;}
+}
+@-o-keyframes glass_neon {
+	0% { opacity: 0.2; }
+	15% { opacity: 1; }
+	25% { opacity: 0.2; }
+	30% { opacity: 0.2; }
+	31% { opacity: 0.9; }
+	50% { opacity: 0.3; }
+	60% { opacity: 0.3; }
+	65% { opacity: 1; }
+	70% { opacity: 0.2; }
+	71% { opacity: 0.6; }
+	85% { opacity: 0.2; }
+	100% { opacity: 1;}
+}
+@-moz-keyframes glass_neon {
+	0% { opacity: 0.2; }
+	15% { opacity: 1; }
+	25% { opacity: 0.2; }
+	30% { opacity: 0.2; }
+	31% { opacity: 0.9; }
+	50% { opacity: 0.3; }
+	60% { opacity: 0.3; }
+	65% { opacity: 1; }
+	70% { opacity: 0.2; }
+	71% { opacity: 0.6; }
+	85% { opacity: 0.2; }
+	100% { opacity: 1;}
+}
+@-webkit-keyframes glass_neon {
+	0% { opacity: 0.2; }
+	15% { opacity: 1; }
+	25% { opacity: 0.2; }
+	30% { opacity: 0.2; }
+	31% { opacity: 0.9; }
+	50% { opacity: 0.3; }
+	60% { opacity: 0.3; }
+	65% { opacity: 1; }
+	70% { opacity: 0.2; }
+	71% { opacity: 0.6; }
+	85% { opacity: 0.2; }
+	100% { opacity: 1;}
+}
+
+#site-header .container {
+  margin-left: 0;
+  width: 100%;
+  padding-right: 0;
+}
+#site-header:not(.shrink) {
+	margin-top: 46px;
+}
+#site-header.shrink {
+	background-color: #fff;
+}
+.shrink .site-title {
+  padding: 0 !important;
+}
+
+.panel .sidebar:not(.row) {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  top: 60px;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+}
+.widget-area aside {
+  background-color: #fcb913;
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+#page {
+  background-color: #fff;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.widget-area .widget + .widget {
+  margin: 10px 0;
+}
+
+#colophon {
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  background-size: unset;
+}
+.sc-pagination .next::after {
+  margin-top: 20px;
+}
+
+.sc-image a::before, .sc-gallery .sc-gallery-preview-carousel-wrap .sc-gallery-item a::before, .portfolio-item .image .overlay, .gallery-item .overlay, .products .product-image::before, .widget .flickr-item a::before, div.blog article a.youtube::before, div.blog article a.vimeo::before, div.blog article a.self_video::before, div.blog article a.default::before, .widget .sc-pp-posts a::before, .widget .sc-latest-news-image a::before {
+  background-color: rgba(235, 148, 28, 0.5);
+}
+#menu-menu-laterale {
+  border: 0px none;
+  box-shadow: none;
+}
+#menu-menu-laterale li a {
+  background-color: transparent;
+  border: 0px none;
+  padding: 0px;
+}
+.page-title-block {
+  text-align: left;
+  padding: 80px 0 0 0;
+}
+h1, .title-h1 {
+  font-size: 60px;
+}
+.sc-picturebox {
+  border: 0 none;
+  box-shadow: 0 0 0 transparent
+}
+.img-responsive {
+  display: inline-block;
+}
+.widget .sc-custom-mailchimp input[type="email"], .wpb_widgetised_column .sc-custom-mailchimp input[type="email"] {
+  float: left;
+  padding: 2px 12px;
+  width: 188px;
+}
