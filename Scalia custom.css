@@ -147,7 +147,7 @@ body.home .slideshow-preloader {
   background-color: #fff;
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto 50px;
 }
 .widget-area .widget + .widget {
   margin: 10px 0;
