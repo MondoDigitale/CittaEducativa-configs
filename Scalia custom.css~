@@ -193,8 +193,3 @@ h1, .title-h1 {
   padding: 2px 12px;
   width: 188px;
 }
-#primary-navigation.responsive #primary-menu {
-  background-color: #fff !important;
-  left: 0 !important;
-  right: 20px !important;
-}
